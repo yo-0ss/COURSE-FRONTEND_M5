@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    line-height: 1.5;
+    background-color: #f2f2f2;
+    color: #333;
+}
+.titulo{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffcb05;
+    color: #3b4cca;
+}
+.titulo img{
+    height: 5rem
+}
+.titulo h1{
+    font-size: 5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 50px 90px 50px;
+    justify-content:space-around;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    width: 25vw;
+    margin: 5px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.card h2{
+    text-transform: capitalize;
+}
