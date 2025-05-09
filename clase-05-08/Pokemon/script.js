@@ -1,4 +1,4 @@
-import axios from 'axios'
+//import axios from 'axios' No me funciono con este modo:(
 
 console.log('Hola')
 const container = document.getElementById('pokemonContainer')
