@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    background-color: #E8E8DA;
+    font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    line-height: 1.5;
+    color: #202329;
+    height: 100%;
+    margin: 0;
+}
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main{
+    flex: 1;
+}
+header{
+    color: #328191;
+    background-color: #B4CECC;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-size: 5rem;
+    font-weight: 900;
+}
+.boton{
+    padding: 7px 13px;
+    font-size: 14px;
+    border-radius: 40px;
+}
+.Fetch{
+    background-color: #D6608F;
+    border: 1px solid #AE0947;
+    color: #AE0947;
+}
+.Fetch.active{
+    background-color: #AE0947;
+    border: 1px solid #D6608F;
+    color: #D6608F;
+}
+.axios{
+    background-color: #6BC658;
+    border: 1px solid #3C8736;
+    color: #3C8736;
+}
+.axios.active{
+    background-color: #3C8736;
+    border: 1px solid #6BC658;
+    color: #6BC658;
+}
+.container{
+    margin: 30px 60px 60px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    width: 40%;
+    margin-top: 30px;
+}
+.card img{
+    width: 100%;
+}
+footer{
+    color: #328191;
+    background-color: #B4CECC;
+    width: 100%;
+    min-height:15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

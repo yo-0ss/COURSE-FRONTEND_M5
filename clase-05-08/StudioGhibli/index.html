@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Ghibli</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="layout">
+    <header>
+        <h1>Studio Ghibli API</h1>
+        <nav class="navbar">
+            <button class="boton Fetch" id="fetch-btn">Obtener con Fetch</button>
+            <button class="boton axios" id="axios-btn">Obtener con Axios</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container" id="dataContainer"></section>
+    </main>
+
+    <footer>
+        <p>
+            La API utilizada para esta página fue: <br>
+            <a href="https://ghibliapi.vercel.app/">https://ghibliapi.vercel.app/</a>
+        </p>
+    </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
